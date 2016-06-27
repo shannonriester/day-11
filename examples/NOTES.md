@@ -98,7 +98,22 @@
     - 'window' is basically the js script window
       - the path to the file that currently looking at
 6. Location/hash
-
+7. console
+  - `console.log()`
+    - console is an object
+    - log is a method (property of an object) that is also a function
+    - prints any and all arguments to the console
+  - `console.assert('truth test', 'error message')`
+    - way of testing whether something is true
+    - `console.assert(1 === 2, 'one equals zero');` //Assertion failed
+      - if it isn't, print out the string 'one equals zero'
+      - doesn't print out if assertion statement is true
+    - _functions_
+      - var arr = [1,2,3];
+        - console.assert(arr[0] === 1, 'first item is 1');
+      - var string = 'jess';
+        console.assert(str.split('')[0] === 'j');
+      - console.assert(sum(1,2) === 3, '1 plus 2 should equal 3');
 
 ## Resources
 - [String docs] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String);
