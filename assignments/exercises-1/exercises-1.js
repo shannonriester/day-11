@@ -5,7 +5,7 @@ function sum (num1, num2){
   return num1 + num2  ;
 }
 
-sum(2,17);
+sum();
 
 // Q2
 // Write a function named `avg` that takes 3 parameters
@@ -14,7 +14,7 @@ function avg(num1, num2, num3) {
    return (num1 + num2 + num3)/3;
 }
 
-avg(3, 3, 4);
+avg();
 
 // Q3
 // Write a function called `getLength` that takes one
@@ -24,7 +24,7 @@ function getLength(string){
   return string.length;
 }
 
-getLength('Shannons day11 homework');
+getLength();
 
 
 // Q4
@@ -42,7 +42,7 @@ function greaterThan(num1, num2) {
   }
 }
 
-greaterThan(2,9);
+greaterThan();
 //returns true
 
 // Q5
@@ -55,7 +55,7 @@ function greet(name){
   return 'Hello, ' + name + '!';
 }
 
-greet('Shannon');
+greet();
 
 // Q6
 // Write a function called `madlib` that takes
@@ -74,6 +74,4 @@ function madLib(verb, adVerb, noun, hwGrade){
 }
 
 madLib();
-
-
 ///
